@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.animekun"
+       name="Animekun"
+       version="1.0.0"
+       provider-name="BikeDreamer">
+    <requires>
+        <import addon="xbmc.python"/>
+        <import addon="script.module.simplejson"/>
+        <import addon="script.module.elementtree"/>
+        <import addon="script.module.html5lib"/>
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.t0mm0.common"/>
+        <import addon="script.module.httplib2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Watch videos from animekun.ru</summary>
+        <description>Watch videos from animekun.ru</description>
+    </extension>
+</addon>
+
+</addons>
