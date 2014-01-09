@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.yurybubnov" name="yurybubnov addons" version="1.0.0" provider-name="yurybubnov">
 	<extension point="xbmc.addon.repository" name="yurybubnov add-on repository">
-		<info compressed="false">http://github.com/yurybubnov/repository.yurybubnov/addons.xml</info>
-		<checksum>http://github.com/yurybubnov/repository.yurybubnov/addons.xml.md5</checksum>
-		<datadir zip="true">http://github.com/yurybubnov/repository.yurybubnov/</datadir>
+		<info compressed="false">http://bitbucket.org/ybubnov/repository.yurybubnov/raw/master/addons.xml</info>
+		<checksum>http://bitbucket.org/ybubnov/repository.yurybubnov/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://bitbucket.org/ybubnov/repository.yurybubnov/raw/master/</datadir>
 	</extension>
 </addon>
 
