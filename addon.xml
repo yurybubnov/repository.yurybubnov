@@ -5,4 +5,9 @@
 		<checksum>http://raw.github.com/yurybubnov/repository.yurybubnov/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://github.com/yurybubnov/repository.yurybubnov/releases/download/1.1.0/</datadir>
 	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from http://bitbucket.org/ybubnov/repository.yurybubnov/</summary>
+		<description>Download and install addons from yurybubnov's repository.</description>
+		<platform>all</platform>
+	</extension>	
 </addon>
